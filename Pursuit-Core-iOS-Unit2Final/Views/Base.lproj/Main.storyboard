@@ -95,7 +95,7 @@
                                     <action selector="sliderChanged:" destination="h2V-ZP-BWD" eventType="valueChanged" id="ntw-o4-eUy"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qsg-i0-3Ct">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qsg-i0-3Ct">
                                 <rect key="frame" x="44" y="423" width="287" height="31"/>
                                 <connections>
                                     <action selector="sliderChanged:" destination="h2V-ZP-BWD" eventType="valueChanged" id="fes-ar-kKy"/>

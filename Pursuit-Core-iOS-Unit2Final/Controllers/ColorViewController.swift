@@ -33,6 +33,10 @@ extension ColorViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = myTableView.dequeueReusableCell(withIdentifier: "colorCell", for: indexPath)
         let color = colors[indexPath.row]
+        if color.name == "Black" {
+            cell.textLabel?.textColor = .white
+            cell.detailTextLabel?.textColor = .white
+        }
         cell.textLabel?.text = color.name
         cell.detailTextLabel?.text = color.hex
         cell.backgroundColor = color.color()
